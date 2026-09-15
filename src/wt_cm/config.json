@@ -1,0 +1,30 @@
+{
+  "score_window_days": 45,
+  "decision_stride_days": 15,
+  "baseline_days": 365,
+  "baseline_span_days": 360,
+  "embargo_days": 180,
+  "min_baseline_windows": 12,
+  "adaptive_lookback_days": 365,
+  "k_warning": 3.0,
+  "k_confirmation": 3.0,
+  "h_cusum": 0.5,
+  "confirmation_horizon_days": 180,
+  "thermal_target": "T_gbb",
+  "gbm_features": [
+    "P",
+    "rpm",
+    "v",
+    "T_amb",
+    "T_nac",
+    "pitch"
+  ],
+  "dev_end": "2018-12-31",
+  "record_end": "2022-08-01 23:50:00",
+  "gbm_params": {
+    "max_iter": 300,
+    "max_depth": 6,
+    "learning_rate": 0.05
+  },
+  "stride_subsample": 3
+}

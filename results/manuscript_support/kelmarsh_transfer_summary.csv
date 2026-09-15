@@ -1,0 +1,18 @@
+metric,value,note,source
+fitted_windows,192.0,,kelmarsh_k1_coefficients
+positive_cooling_fits,192.0,of 192,kelmarsh_k1_coefficients
+tau_median_h,3.0793680258112532,,kelmarsh_k1_coefficients
+tau_q25_h,2.5683696586102798,,kelmarsh_k1_coefficients
+tau_q75_h,4.663747555093445,,kelmarsh_k1_coefficients
+tau_min_h,1.85033803304046,,kelmarsh_k1_coefficients
+tau_max_h,7.54949198813567,,kelmarsh_k1_coefficients
+steady_state_rise_median_K,35.026214145988995,,kelmarsh_k15_identifiability
+steady_state_rise_q25_K,33.111057900026324,,kelmarsh_k15_identifiability
+steady_state_rise_q75_K,36.40902801123935,,kelmarsh_k15_identifiability
+steady_state_rise_cluster_ci_lo_K,34.29,,clustered_inference
+steady_state_rise_cluster_ci_hi_K,35.75,,clustered_inference
+per_turbine_rise_median_min_K,33.904178883817224,,kelmarsh_k15_identifiability
+per_turbine_rise_median_max_K,37.01535149903809,,kelmarsh_k15_identifiability
+corr_bP_bV,-0.9761009709068986,,kelmarsh_k15_identifiability
+KWF1_controller_flagged_max_peer_relative_excursion,1.07,smallest of six,archived K2B audit
+peer_max_excursion_same_check,16.16,,archived K2B audit

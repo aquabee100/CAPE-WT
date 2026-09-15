@@ -1,0 +1,11 @@
+manuscript_evidence,files,location
+RQ1 field detection,online_case_episode_summary.csv; history_sweep.csv,results/authoritative
+Detector-family comparison,detector_family_low_burden.csv,results/manuscript_support
+Published warning frontier,published_frontier.csv,results/authoritative
+Warning complementarity,warning_complementarity.csv,results/manuscript_support
+Warning-physical dependence,warning_physical_dependence.csv,results/manuscript_support
+Plug-in physical escalation,plugin_architecture.csv,results/manuscript_support
+Confirmation operating region,frontierB_confirmation.csv,results/authoritative
+Adaptation and perturbations,adaptation_theory.csv; stability_2x2_summary.csv; clustered_inference.csv,results/authoritative
+Independent Kelmarsh transfer,kelmarsh_transfer_summary.csv,results/manuscript_support
+Strict online causality,causality_summary.csv; online_causality_end_to_end.csv; online_causality_deep_gbm.csv; leakage_audit.csv,results/manuscript_support + results/authoritative

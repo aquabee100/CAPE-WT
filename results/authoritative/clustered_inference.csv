@@ -1,0 +1,9 @@
+quantity,naive,n_clusters,cluster_median,ci_lo,ci_hi
+external physical transfer: fraction of windows with a_nac>0,192/192 = 1.000,6,1.0,1.0,1.0
+"external physical transfer: steady-state rise (K), median",35.03 K over 192 windows,6,35.03,34.29,35.75
+"adaptation, primary-onset cross-structure: raw attenuation (R_raw<1)",53/84 = 0.631,7,0.631,0.536,0.738
+"adaptation, primary onset GBM: raw attenuation (R_raw<1)",42/42 = 1.000; median R_raw=0.802,7,1.0,1.0,1.0
+"adaptation, primary onset physics: raw attenuation (R_raw<1)",11/42 = 0.262; median R_raw=1.161,7,0.262,0.071,0.476
+"adaptation, primary-onset cross-structure: standardised gain (R_z>1)",84/84 = 1.000,7,1.0,1.0,1.0
+secondary two-onset GBM robustness: raw attenuation (R_raw<1),83/84 = 0.988; median R_raw=0.801,7,0.988,0.964,1.0
+parallel warning burden (episodes/turbine-year),16/21.54 = 0.743,7,0.743,0.371,1.114

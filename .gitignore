@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local data and generated outputs
+/data/
+data/
+results/runtime/
+*.pkl
+*.pickle
+*.parquet
+
+# Secrets / local config
+.env
+.env.*
+*.key
+*.pem

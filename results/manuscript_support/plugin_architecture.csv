@@ -1,0 +1,13 @@
+channel,case,evaluable,warn_lead,conf_lead,warn_eps,confirmed,expo,far_warn,far_conf
+P1 Zaher ANN-NBM,MF07,yes,279.0,219.0,4.0,0.0,27.87,0.144,0.0
+P1 Zaher ANN-NBM,MF12,yes,154.0,139.0,0.0,0.0,18.09,0.0,0.0
+P2 Schlechtingen linear FSRC,MF07,yes,294.0,219.0,3.0,0.0,27.87,0.108,0.0
+P2 Schlechtingen linear FSRC,MF12,yes,139.0,124.0,0.0,0.0,18.09,0.0,0.0
+P3 GBM-NBM + EWMA,MF07,yes,294.0,219.0,9.0,0.0,27.87,0.323,0.0
+P3 GBM-NBM + EWMA,MF12,yes,784.0,139.0,12.0,0.0,18.09,0.663,0.0
+P5 multivariate CUSUM,MF07,yes,204.0,189.0,35.0,0.0,27.87,1.256,0.0
+P5 multivariate CUSUM,MF12,yes,769.0,139.0,27.0,0.0,18.09,1.492,0.0
+filter (proposed),MF07,yes,294.0,219.0,12.0,0.0,27.87,0.431,0.0
+filter (proposed),MF12,yes,184.0,139.0,4.0,0.0,18.09,0.221,0.0
+adaptive GBM (proposed),MF07,no,,,,,,,
+adaptive GBM (proposed),MF12,yes,199.0,139.0,1.0,0.0,18.09,0.055,0.0

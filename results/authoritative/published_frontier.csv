@@ -1,0 +1,17 @@
+method,case,target_burden,threshold,control_episodes,control_yrs,achieved_burden,lead_days,monitoring_span_days,near_record_boundary
+P1 Zaher ANN-NBM,MF07,0.221,4.8568,1,28.6,0.035,223,333,False
+P1 Zaher ANN-NBM,MF07,0.743,1.6721,21,28.6,0.734,318,333,True
+P1 Zaher ANN-NBM,MF12,0.221,4.5164,1,18.1,0.055,139,784,False
+P1 Zaher ANN-NBM,MF12,0.743,1.9145,13,18.1,0.719,783,784,True
+P2 Schlechtingen linear FSRC,MF07,0.221,2.6708,6,28.6,0.21,223,333,False
+P2 Schlechtingen linear FSRC,MF07,0.743,0.9251,21,28.6,0.734,333,333,True
+P2 Schlechtingen linear FSRC,MF12,0.221,2.5996,3,18.1,0.166,766,784,True
+P2 Schlechtingen linear FSRC,MF12,0.743,1.9448,13,18.1,0.719,783,784,True
+P3 GBM-NBM + EWMA,MF07,0.221,2.8571,6,28.6,0.21,223,333,False
+P3 GBM-NBM + EWMA,MF07,0.743,1.9255,21,28.6,0.734,316,333,True
+P3 GBM-NBM + EWMA,MF12,0.221,3.359,3,18.1,0.166,447,784,False
+P3 GBM-NBM + EWMA,MF12,0.743,2.0775,13,18.1,0.719,784,784,True
+P5 multivariate CUSUM,MF07,0.221,22.6334,6,28.6,0.21,221,333,False
+P5 multivariate CUSUM,MF07,0.743,7.4212,20,28.6,0.699,223,333,False
+P5 multivariate CUSUM,MF12,0.221,220.7323,3,18.1,0.166,351,784,False
+P5 multivariate CUSUM,MF12,0.743,62.5721,5,18.1,0.277,701,784,False

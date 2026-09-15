@@ -1,0 +1,10 @@
+component,declared,cuts_leaking,n_changed,reach_days,modes,verdict,first_bad
+causal_derivative,ONLINE,0/12,0,,-,clean,
+align_regressors,ONLINE,0/12,0,,-,clean,
+causal_flatline_mask,ONLINE,0/12,0,,-,clean,
+online_clean_nointerp,ONLINE,0/12,0,,-,clean,
+online_filter_resistance,ONLINE,0/12,0,,-,clean,
+interpolated_mask,OFFLINE,6/12,3,0.0,"constant,freeze,noise,reverse",LEAK,
+archive_clean,OFFLINE,4/12,3,0.0,"constant,freeze,noise,reverse",LEAK,
+archive_filter_resistance,OFFLINE,3/12,3,0.0,"constant,freeze,noise,reverse",LEAK,
+filter trajectory,ONLINE,,0,,-,clean,

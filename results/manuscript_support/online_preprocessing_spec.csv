@@ -1,0 +1,5 @@
+path,accepted_samples_or_eligibility,cleaning_and_implementation
+Filter-pressure,"P [500,2100] kW; rpm >8; T_oil [20,90] C; dp [0.01,20] archive units; run >540 s; alarm <60 s","past-only flatline on p_before,p_after,T_oil,rpm; >=200 valid samples / 45 d"
+Adaptive GBM,"P [50,2100] kW; rpm >3; T_b [5,90] C; T_nac [-10,60] C; T_amb [-20,50] C; run >540 s; alarm <60 s","past-only flatline on T_b,P; complete feature rows; >=2000 train; >=90% of 365 d; >=400 score; stride 3"
+Grey-box physical,same thermal gate as GBM; >=400 valid samples / 45 d,7-sample backward derivative and aligned regressors; mean-absolute column scaling; ridge 1e-8*n in scaled coordinates
+Interpolation handling,no extra online gate,two-sided interpolation-run detector excluded from headline because noncausal; archive sensitivity / positive control only

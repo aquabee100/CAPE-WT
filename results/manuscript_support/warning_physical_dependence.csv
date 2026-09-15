@@ -1,0 +1,6 @@
+metric,pair,reference_value,reference_ci_lo,reference_ci_hi,n_reference_turbines,n_reference_windows,mf12_value,n_mf12_windows
+correlation,filter-thermal,0.133,-0.166,0.224,7,,0.664,53
+correlation,GBM-thermal,0.205,-0.043,0.328,7,,0.84,53
+correlation,filter-GBM,0.079,-0.018,0.404,7,,0.856,53
+cofire_fraction,filter-thermal,0.0,,,7,36.0,0.786,14
+cofire_fraction,GBM-thermal,0.0,,,7,2.0,0.786,14

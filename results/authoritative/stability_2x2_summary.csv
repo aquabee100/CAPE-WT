@@ -1,0 +1,5 @@
+structure,adaptation,n,exposure_yr,med_abs_drift,up,down,med_abs_shift,med_sd,med_frac_z3,warn,warn_per_turb_yr
+GBM,adaptive,7,17.849999999999998,0.144,6,1,0.395,1.064,0.0,1,0.056
+GBM,frozen,7,17.849999999999998,0.23,4,3,0.42,0.77,0.016,8,0.448
+physics,adaptive,7,17.849999999999998,0.293,5,2,0.56,0.882,0.0,0,0.0
+physics,frozen,7,17.849999999999998,0.164,6,1,0.263,0.5,0.0,0,0.0

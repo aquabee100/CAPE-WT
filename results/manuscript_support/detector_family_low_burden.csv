@@ -1,0 +1,17 @@
+family,mode,k_W,mf12_lead_days,reference_burden_per_ty,frontier_status
+Gradient boosting,Adaptive,3.0,199.0,0.055,stable
+Gradient boosting,Static,5.0,154.0,0.0,boundary-sensitive
+MLP,Adaptive,3.0,214.0,0.055,stable
+MLP,Static,5.0,139.0,0.0,boundary-sensitive
+Linear NBM,Adaptive,1.5,184.0,0.055,boundary-sensitive
+Linear NBM,Static,2.5,169.0,0.055,boundary-sensitive
+PCA,Adaptive,,,0.0,no MF12 warning
+PCA,Static,2.5,109.0,0.055,boundary-sensitive
+Mahalanobis,Adaptive,1.5,49.0,0.055,boundary-sensitive
+Mahalanobis,Static,2.5,79.0,0.0,boundary-sensitive
+Isolation forest,Adaptive,,,0.0,no MF12 warning
+Isolation forest,Static,2.0,169.0,0.0,boundary-sensitive
+Autoencoder,Adaptive,2.5,64.0,0.0,stable
+Autoencoder,Static,4.0,109.0,0.055,stable
+Grey-box residual,Adaptive,2.5,139.0,0.0,stable
+Grey-box residual,Static,2.5,709.0,0.0,boundary-sensitive

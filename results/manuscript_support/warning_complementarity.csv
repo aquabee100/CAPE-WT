@@ -1,0 +1,4 @@
+configuration,episodes,exposure_turbine_years,episodes_per_turbine_year,filter_first,gbm_first,simultaneous,union_to_independent_sum
+filter only,12,21.54,0.557,,,,
+adaptive GBM only,9,21.54,0.418,,,,
+parallel union,16,21.54,0.743,8.0,7.0,1.0,0.7619047619047619

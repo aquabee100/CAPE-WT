@@ -1,0 +1,21 @@
+test,metric,value,note,source
+information_equivalent_timing,matched_pairs,168,168/168 identical observations and index; centred timestamp 22.5 d early,archived K3A evidence
+information_equivalent_timing,lookahead_days,22.5,availability offset only,archived K3A evidence
+legacy_temporal_construction,matched_windows,192,legacy RMSE lower in 192/192,archived K3B evidence
+legacy_temporal_construction,median_rmse_causal,0.001135,,archived K3B evidence
+legacy_temporal_construction,median_rmse_legacy,0.000506,,archived K3B evidence
+legacy_temporal_construction,median_tau_causal_h,3.08,,archived K3B evidence
+legacy_temporal_construction,median_tau_legacy_h,4.9,,archived K3B evidence
+hostile_future_end_to_end,modes_passed,5,of 5; final state unchanged,online_causality_end_to_end.csv
+deep_raw_replay_warning,decisions_preserved,88,per hostile mode; 5/5 modes passed,online_causality_deep_gbm.csv
+deep_raw_replay_confirmation,decisions_preserved,92,per hostile mode; 5/5 modes passed,online_causality_deep_gbm.csv
+deep_raw_replay,max_gbm_delta,8.326672684688674e-17,,online_causality_deep_gbm.csv
+leakage_harness,causal_derivative,0/12,clean,leakage_audit.csv
+leakage_harness,align_regressors,0/12,clean,leakage_audit.csv
+leakage_harness,causal_flatline_mask,0/12,clean,leakage_audit.csv
+leakage_harness,online_clean_nointerp,0/12,clean,leakage_audit.csv
+leakage_harness,online_filter_resistance,0/12,clean,leakage_audit.csv
+leakage_harness,interpolated_mask,6/12,LEAK,leakage_audit.csv
+leakage_harness,archive_clean,4/12,LEAK,leakage_audit.csv
+leakage_harness,archive_filter_resistance,3/12,LEAK,leakage_audit.csv
+leakage_harness,filter trajectory,,clean,leakage_audit.csv
