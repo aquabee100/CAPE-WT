@@ -9,3 +9,5 @@ Confirmation operating region,frontierB_confirmation.csv,results/authoritative
 Adaptation and perturbations,adaptation_theory.csv; stability_2x2_summary.csv; clustered_inference.csv,results/authoritative
 Independent Kelmarsh transfer,kelmarsh_transfer_summary.csv,results/manuscript_support
 Strict online causality,causality_summary.csv; online_causality_end_to_end.csv; online_causality_deep_gbm.csv; leakage_audit.csv,results/manuscript_support + results/authoritative
+Complete-system comparison,complete_vs_published.csv; complete_vs_published_sweep.csv,results/manuscript_support
+Complete-system decision metrics,metrics_complete_vs_published.csv,results/manuscript_support

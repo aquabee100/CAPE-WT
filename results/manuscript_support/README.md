@@ -9,3 +9,6 @@ Compact derived tables for numerical claims in the paper.
 - `causality_summary.csv` — timing and future-invariance checks
 - `detector_family_low_burden.csv` — 16 detector configurations
 - `online_preprocessing_spec.csv` — exact online gates
+- `complete_vs_published.csv` — complete system vs published methods
+- `complete_vs_published_sweep.csv` — lead and burden across thresholds
+- `metrics_complete_vs_published.csv` — decision-level measures

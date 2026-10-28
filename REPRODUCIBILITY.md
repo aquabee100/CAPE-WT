@@ -10,6 +10,16 @@ python run_online.py --fresh
 
 This regenerates the strict-online filter, adaptive GBM, thermal, episode, availability, and headline outputs from the authorised primary SCADA archive.
 
+## Published-method comparison
+
+From `src/wt_cm/`, after the primary replay:
+
+```bash
+python published_baselines.py
+python complete_vs_published.py
+python metrics_complete_vs_published.py
+```
+
 ## Causality checks
 
 ```bash

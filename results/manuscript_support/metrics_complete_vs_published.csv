@@ -1,0 +1,10 @@
+system,operating_point,detected,deployable,WT6_lead_d,WT6_ref_alarms,WT6_expo_ty,WT6_MTBFA_ty,WT6_alarms_per_det,WT6_time_in_alarm_pct,WT6_warning_time_pct,WT6_early_alarm_share,WT6_robust_lead_range_d,WT6_warn_to_conf_d,WT8_lead_d,WT8_ref_alarms,WT8_expo_ty,WT8_MTBFA_ty,WT8_alarms_per_det,WT8_time_in_alarm_pct,WT8_warning_time_pct,WT8_early_alarm_share,WT8_robust_lead_range_d,WT8_warn_to_conf_d
+CAPE-WT complete,fixed (Table 3),2/2,yes,219,0,27.87,>9.3,0,0.0,24.4,0/7,219-219,75,139,0,18.09,>6.0,0,0.0,9.9,0/7,139-154,60
+P1 Zaher ANN-NBM,native,2/2 (censored),no,318,37,28.38,0.77,37,16.1,,0/7,318-318,,>=783,28,17.93,0.64,28,14.9,,6/7,780-784,
+P1 Zaher ANN-NBM,causal calibration,2/2 (censored),no,224,22,28.38,1.29,22,5.1,,0/7,223-318,,>=780,23,17.93,0.78,23,5.6,,4/7,700-783,
+P2 Schlechtingen linear,native,2/2,no,223,24,28.38,1.18,24,10.3,,0/7,223-316,,766,19,17.93,0.94,19,9.4,,2/7,401-783,
+P2 Schlechtingen linear,causal calibration,2/2 (censored),no,223,17,28.38,1.67,17,6.6,,0/7,223-300,,>=776,21,17.93,0.85,21,12.6,,2/7,700-783,
+P3 GBM-NBM + EWMA,native,2/2 (censored),no,>=333,37,28.38,0.77,37,60.9,,6/7,333-333,,>=784,26,17.93,0.69,26,70.4,,7/7,784-784,
+P3 GBM-NBM + EWMA,causal calibration,2/2 (censored),no,>=326,30,28.38,0.95,30,47.1,,3/7,316-333,,>=784,17,17.93,1.05,17,33.4,,3/7,779-784,
+P5 multivariate CUSUM,native,2/2 (censored),no,223,22,28.38,1.29,22,50.1,,0/7,223-223,,>=784,15,17.93,1.20,15,63.0,,7/7,784-784,
+P5 multivariate CUSUM,causal calibration,2/2,no,222,16,28.38,1.77,16,45.2,,0/7,222-222,,543,5,17.93,3.59,5,40.9,,1/7,458-692,
